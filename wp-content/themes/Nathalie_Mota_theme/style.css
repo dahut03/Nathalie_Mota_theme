@@ -11,3 +11,1310 @@ Updated: 2024-07-23 02:47:09
 
 */
 
+/* Supprimer le cadre autour des éléments de menu lors du clic */
+.menu-item a:focus, 
+.menu-item a:active, 
+.menu-item a
+{
+    outline: 0px !important;
+    outline: none !important;
+}
+
+#footer-bottom a, #footer-bottom #footer-bottom-menu a {
+    color: #020202;
+    margin-right: 40px;
+    content: none !important;
+  }
+
+  #footer-bottom #footer-bottom-menu li::after {
+    content: none;
+}
+
+.footer-menu-container {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Couleur de fond, vous pouvez la changer */
+    text-align: center; /* Centrer le contenu du conteneur */
+    padding: 10px 0; /* Ajouter du padding si nécessaire */
+    border-top: 1px solid #000; /* Ajouter un border en haut */
+    z-index: 1000; /* S'assurer que le menu reste au-dessus des autres éléments */
+}
+
+.footer-menu-container .footer-nav {
+    display: inline-block; /* Permettre au menu de s'afficher en ligne */
+}
+
+.footer-menu {
+    list-style: none; /* Supprimer les puces */
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    display: inline; /* Afficher les éléments du menu en ligne */
+    margin-right: 15px; /* Ajouter de l'espace entre les éléments */
+}
+
+.footer-menu li:last-child {
+    margin-right: 0; /* Supprimer l'espace après le dernier élément */
+}
+
+.footer-menu a {
+    text-decoration: none; /* Supprimer la décoration des liens */
+    color: inherit; /* Utiliser la couleur du texte par défaut */
+}
+
+.menu-item.active {
+    color: #E00000;
+  }
+
+#scroll-top {
+    z-index: 2000;
+}
+
+
+  #site-navigation-wrap .dropdown-menu > .current-menu-item > a{
+    color:#E00000;
+}
+
+#site-logo #site-logo-inner a {
+    background-color: rgba(0,0,0,0) !important;
+    outline: 0px !important;
+    outline: none !important;
+  }
+
+  .wpforms-container .wpforms-form .wpforms-field-label{
+    text-align: left;
+    margin-left: 150px;
+  }
+
+  div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+    text-align: center !important;
+  }
+
+  div.wpforms-container-full input[type="email"] {
+    border-radius: 8px !important;
+    width: 263px;
+    margin: 0 auto
+  }
+
+  div.wpforms-container-full input[type="text"] {
+    border-radius: 8px !important;
+    width: 263px;
+    margin: 0 auto
+  }
+
+  .wpforms-container .wpforms-form textarea {
+    border-radius: 8px !important;
+    width: 263px;
+    margin: 0 auto
+  }
+
+  .e-con > .e-con-inner > .elementor-widget > .elementor-widget-container {
+    width: 263px;
+  }
+
+  div.wpforms-container-full button[type="submit"]{
+    width: 263px;
+  }
+
+  div.wpforms-container-full button[type=submit]:hover {
+    background-color: none !important;
+
+  }
+
+
+  /* Styles de la modale */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Contenu de la modale */
+.modal-content {
+  background-color: #fff;
+  background-image: url(images/Contact_header.png);
+  background-repeat: no-repeat;
+  margin: 15% auto;
+  padding: 20px;
+  border: 5px solid #000000;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  padding-top: 130px;
+  background-position: top;
+  background-position-y: 30px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.dropdown-menu * {
+  line-height: 74px;
+  padding-left: 10px;
+  letter-spacing: .6px;
+  list-style: none;
+  background: none;
+  border: none;
+
+  font-size: 13px;
+}
+
+.dropdown-menu:hover * 
+.dropdown-menu:active *
+.dropdown-menu:focus *
+.footer-menu li:active
+.footer-menu li:focus
+{
+  color: #E00000 !important;
+}
+
+.ma-classe-personnalisee {
+  color: #555; /* Texte en gris */
+  border: none;
+  line-height: 74px;
+  padding-left: 24px;
+  letter-spacing: .6px;
+  font-size: 13px;
+  cursor: pointer;
+  /* Ajoutez d'autres styles ici */
+}
+
+.ma-classe-personnalisee:hover {
+  color:#E00000 !important; /* Changement de couleur au survol */
+}
+
+#contactButton1 {
+  width: 272px;
+  background-color: #D8D8D8;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#contactButton1:hover {
+  background-color: #838383;
+}
+.titre_photos{
+color: #000000;
+font-family: Space Mono;
+font-size: 66px;
+font-style: italic;
+font-weight: 400;
+line-height: 58px;
+text-align: left;
+}
+
+.elementor-337 .elementor-element.elementor-element-42839f5 .elementor-swiper-button.elementor-swiper-button-next, .elementor-337 .elementor-element.elementor-element-42839f5 .elementor-swiper-button.elementor-swiper-button-prev, .elementor-337 .elementor-element.elementor-element-42839f5 .elementor-swiper-button.elementor-swiper-button-next {
+margin-top: 55px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.filters label {
+  margin-right: 5px;
+}
+.filters select {
+  padding: 5px;
+  width: 260px;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 564px);
+  grid-auto-rows: 495px;
+  gap: 10px;
+}
+.image-item {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+.image-item.visible {
+  opacity: 1;
+}
+.image-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+}
+.image-category {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+}
+.fullscreen-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+.pagination {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+.pagination button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 30em) {
+  .gallery-item {
+    max-width: 100% !important;
+  }
+}
+
+
+
+
+/* Styles pour la lightbox */
+/* Styles pour la lightbox */
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 100%;
+}
+
+.lightbox-content {
+  max-height: 90%;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.prev, .next {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  user-select: none;
+  padding: 16px;
+
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#caption {
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+}
+/* CSS pour Lightbox */
+#lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox-image {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+
+
+
+.image-item {
+  position: relative; /* Assurez-vous que l'image a un contexte de positionnement */
+}
+
+.image-item .image-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.fullscreen-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  visibility: hidden;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  visibility: hidden;
+  cursor: pointer;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.image-item:hover .fullscreen-icon,
+.image-item:hover .eye-icon,
+.image-item.visible:hover {
+  visibility: visible;
+}
+
+
+
+
+.open-modal{
+  width: 272px;
+  height: 50px;
+}
+
+.open-modal:hover{
+  background-color:#c2c2c2 !important;
+}
+
+
+
+
+.overlay-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  opacity: 1; /* Fixe l'opacité à 1 pour vérifier la visibilité */
+}
+
+.overlay-icons a {
+  color: white;
+  font-size: 24px; /* Augmentez la taille pour une meilleure visibilité */
+}
+
+
+.overlay-icons {
+  z-index: 9999; /* S'assurer que les icônes apparaissent au-dessus */
+}
+
+.image-container {
+  overflow: visible; /* S'assurer que rien n'est masqué */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.article-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.article-image-wrapper .eye-icon2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.article-image-wrapper:hover .eye-icon2 {
+  opacity: 1;
+}
+
+.elementor-swiper-button {
+  margin-top: 60px;
+}
+
+
+
+
+.article-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.fullscreen-icon2 {
+
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.article-image-container:hover .fullscreen-icon2 {
+  display: block;
+}
+
+
+
+
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.eye-icon2, .fullscreen-icon2 {
+  position: absolute;
+  font-size: 24px;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  opacity: 1;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+
+
+.fullscreen-icon2 {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  font-size: 24px;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  opacity: 1;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  margin-top: -185px;
+}
+
+.image-container:hover .eye-icon2,
+.image-container:hover .fullscreen-icon2 {
+  opacity: 1;
+}
+
+
+
+.eye-icon2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  visibility: visible;
+  cursor: pointer;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+
+.close-modal
+ {
+    display: none !important;
+    content: none !important;
+}
+
+.wpcf7-form{
+  margin-top: 35px;
+}
+
+
+.wpforms-container .wpforms-form .wpforms-field-label
+{
+  font-size: 12px !important;
+  font-family: Poppins;
+  font-weight: 500 !important;
+  margin-bottom: 5px;
+}
+
+
+div.wpforms-container-full button[type="submit"]:not(:hover):not(:active){
+  background-color:#D8D8D8 !important ;
+  color: #000000 !important;
+}
+
+div.wpforms-container-full button[type="submit"]:hover{
+  background:#838383 !important;
+}
+
+button[type="submit"],
+body div.wpforms-container-full .wpforms-form button[type="submit"] {
+  text-transform: none !important;
+}
+
+form label {
+  margin-bottom: 3px;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+
+
+/* Formulaires */
+
+input[type="submit"] {
+  background-color: #D8D8D8 !important;
+  display: block;
+  margin: 0 auto;
+  width: 263px;
+  text-transform: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #838383 !important;
+  text-transform: none;
+  color: white !important;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="email"]
+{
+  width: 263px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Aligner les labels à gauche et centrer les champs */
+.wpcf7 form p {
+  width: 263px;
+  max-width: 400px; /* Largeur maximale pour les labels */
+  margin: 0 auto 10px auto; /* Centre les labels tout en ajoutant un espacement en bas */
+}
+
+/* Centrer les champs de formulaire */
+
+.wpcf7 form input[type="email"],
+.wpcf7 form input[type="url"],
+.wpcf7 form input[type="tel"],
+.wpcf7 form input[type="number"],
+.wpcf7 form input[type="date"],
+.wpcf7 form input[type="file"],
+.wpcf7 form textarea,
+.wpcf7 form select {
+  display: block;
+  margin: 0 auto 0px auto; /* Centre les champs et ajoute un espace vertical */
+  width: 100%;
+  max-width: 400px; /* Limite la largeur des champs */
+  border-radius: 8px;
+}
+
+/* Centrer le bouton d'envoi */
+.wpcf7 form input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  color:#000000;
+  border-radius: 2px !important;
+}
+
+
+.div.wpforms-container-full button[type="submit"]:hover,
+.wpforms-submit:hover {
+  background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), #000 !important;
+}
+
+
+
+/* Conteneur pour les groupes de filtres à gauche (Catégorie et Format) */
+
+.filter-group-format {
+    margin-right: 337px; /* Espacement entre les filtres de gauche */
+}
+
+/* Conteneur des filtres de gauche */
+.filter-group-categorie,
+.filter-group-format {
+    display: inline-block;
+}
+
+
+
+/* Style du conteneur d'image */
+.image-random-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Prend toute la hauteur de l'écran */
+  overflow: hidden;
+}
+
+.image-random-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Couvre toute la zone sans déformer l'image */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-random-container .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0,0,0,0);
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 6em; /* Ajustez la taille de la police selon vos préférences */
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+
+.ajax-button-secondary {
+  background-color: #ff5722; /* Couleur différente pour le bouton secondaire */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.ajax-active {
+  border: 2px solid #0073aa; /* Indiquer visuellement que le bouton est en Ajax */
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+a:focus {
+  outline: solid 0px !important;
+}
+
+
+.related-image2 {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; /* Pour un ratio 4:3 par exemple */
+  background-size: cover;
+  background-position: center;
+  transform: scale(0); /* Start with no size (scaled down) */
+    animation: zoomIn 0.7s forwards ease-in-out;
+    /* Optional delay before the animation starts */
+    animation-delay: 0.5s;
+}
+
+/* Keyframes for the zoom-in effect */
+@keyframes zoomIn {
+    to {
+        transform: scale(1); /* Scale to normal size */
+    }
+}
+
+
+.overlay-icons2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.related-image2:hover .overlay-icons2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.fullscreen-icon2, .eye-icon2 {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.fullscreen-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  visibility: hidden;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  visibility: hidden;
+  cursor: pointer;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+
+
+
+
+
+
+
+body .is-layout-flex {
+	width: 1148px;
+	margin: 0 auto;
+}
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+	width: 100%
+}
+
+
+.image2_suggestions{
+  margin-top: 44px;
+  transform: scale(0); /* Start with no size (scaled down) */
+    animation: zoomIn 3s forwards ease-in-out;
+    /* Optional delay before the animation starts */
+    animation-delay: 2s;
+}
+
+/* Keyframes for the zoom-in effect */
+@keyframes zoomIn {
+    to {
+        transform: scale(1); /* Scale to normal size */
+    }
+}
+
+
+
+.interet{
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.bouton_contact{
+  padding-right: 470px;
+}
+
+.titre_photos {
+	color: #000000;
+	font-family: Space Mono;
+	font-size: 66px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 58px;
+	text-align: left;
+  padding-bottom: 30px;
+}
+
+.metaslider .flexslider .flex-direction-nav li a
+{
+  margin-top: 42px !important;
+}
+
+.vous_aimerez{
+  color: #000000;
+  font-family: "Space Mono", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.66px;
+}
+
+
+
+p {
+  margin: 0 0 15px;
+}
+
+.image_principale{
+  width: 572px;
+  height: auto;
+  margin-left: 64px !important;
+}
+
+.metaslider-flex.ms-theme-default .flex-prev:focus 
+.metaslider-flex.ms-theme-default .flex-next:focus {
+	background: url('bg_direction_nav.png') scroll left 0 transparent !important;
+	height: 8px !important;
+	background-repeat: no-repeat !important;
+}
+
+
+.wp-block-separator{
+  color:#000000;
+  border-bottom: 1px solid !important;
+}
+
+.ligne_longueur{
+  width: 117% !important;
+  margin-bottom: 20px !important;
+}
+
+.bloc_venant_de_gauche{
+  transform: scale(0) rotate(0deg) translateX(-200%);
+  opacity: 0;
+  animation: superAnimation 3s ease-in-out forwards;
+}
+
+/* Keyframes for the super animation */
+@keyframes superAnimation {
+  0% {
+      transform: scale(0)  translateX(-200%);
+      opacity: 1;
+  }
+  50% {
+      transform: scale(0.5)  translateX(50%);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1)  translateX(0);
+      opacity: 1;
+  }
+}
+
+
+#lightbox {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+.container-centered {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.info-column div {
+  margin-bottom: 10px; /* Espace entre les lignes */
+}
+
+.slider-container .metaslider {
+  width: 100% !important; /* Assure que le slider prend toute la largeur de son conteneur */
+  height: 100% !important; /* Assure que le slider prend toute la hauteur de son conteneur */
+}
+
+
+.image_vous_aimerez{
+  margin-right: 10px;
+}
+
+.image_vous_aimerez2{
+  margin-left: 10px;
+}
+
+
+.thumbnail-box {
+  position: relative;
+  width: 81px;  /* Largeur de la box */
+  height: 71px; /* Hauteur de la box */
+  overflow: hidden; /* Pour masquer les débordements */
+  border: 1px solid #ccc; /* Bordure pour la box */
+  margin-bottom: 10px; /* Espacement entre l'image et les liens */
+}
+
+.thumbnail-box img {
+  width: 100%;  /* L'image remplira la box */
+  height: auto; /* Conserver le ratio */
+}
+
+/* Style pour les liens de navigation */
+.navigation {
+  display: flex; /* Utiliser flexbox pour aligner les liens */
+  justify-content: space-between; /* Espacement entre les liens */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: -19px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .image-item {
+    flex: 1 1 calc(100% - 10px); /* Une seule colonne sur les petits écrans */
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr)); /* Adapte automatiquement */
+    gap: 10px;
+  }
+  
+  .image-item {
+    position: relative;
+    width: 95%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0; /* Remettre l'opacité à 0 si l'effet fonctionne */
+    transition: opacity 1s ease-in-out;
+    margin: auto;
+  }
+  
+  .image-item.visible {
+    opacity: 1; /* S'assure que l'image est visible quand la classe "visible" est appliquée */
+  }
+
+  .wpcf7 form input[type="text"],
+  .wpcf7 form input[type="email"],
+  .wpcf7 form input[type="url"],
+  .wpcf7 form input[type="tel"],
+  .wpcf7 form input[type="number"],
+  .wpcf7 form input[type="date"],
+  .wpcf7 form input[type="file"],
+  .wpcf7 form textarea,
+  .wpcf7 form select,
+  .wpcf7 form input[type="submit"] {
+      max-width: 100%; /* Sur les petits écrans, les champs prennent toute la largeur disponible */
+  }
+
+  .image-random-container .overlay-text{
+    font-size: 4em;
+  }
+
+
+    .filters {
+        display: block;
+    }
+
+    .filter-group-categorie,
+    .filter-group-format,
+    .date-filter {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .filter-group-categorie:last-child,
+    .filter-group-format:last-child,
+    .date-filter:last-child {
+        margin-bottom: 0;
+    }
+
+.contact-button{
+  background: none;
+  border: none;
+}
+
+.wpforms-container .wpforms-field {
+  width: 100% !important; /* Assurez-vous que chaque champ prend toute la largeur */
+  margin-bottom: 20px;    /* Ajoutez un espacement entre les champs */
+}
+
+.wpforms-container .wpforms-field.wpforms-one-half {
+  width: 100% !important; /* Les champs à moitié de largeur prennent toute la largeur */
+}
+
+.wpforms-container .wpforms-field.wpforms-one-third,
+.wpforms-container .wpforms-field.wpforms-two-thirds {
+  width: 100% !important; /* Les champs à tiers de largeur prennent toute la largeur */
+}
+
+.wpforms-container .wpforms-field input,
+.wpforms-container .wpforms-field select,
+.wpforms-container .wpforms-field textarea {
+  width: 100% !important; /* Les éléments de formulaire (input, select, textarea) prennent toute la largeur */
+}
+
+.wpforms-container .wpforms-submit {
+  width: 100% !important; /* Le bouton de soumission prend toute la largeur */
+}
+
+
+.oceanwp-mobile-menu-icon a.mobile-menu .oceanwp-text,
+.form input[type="search"],
+#mobile-dropdown #mobile-menu-search  {
+  display: none;
+}
+
+.fa{
+  font-size: 30px;
+}
+
+a:focus{
+  outline: none !important;
+}
+
+.footer-menu li {
+  display: block;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.elementor-337 .elementor-element.elementor-element-978c74e.e-con{
+  display: none;
+}
+
+.elementor-337 .elementor-element.elementor-element-3c4531e.elementor-element {
+  margin: auto;
+}
+
+.elementor-337 .elementor-element.elementor-element-65c8c1e.elementor-element {
+  text-align: center;
+}
+.elementor-337 .elementor-element.elementor-element-6b18bb1 {
+	bottom: 437px;
+  margin-bottom: -87px;
+}
+
+.elementor-337 .elementor-element.elementor-element-dc563a8.e-con {
+	top: 332px;
+}
+
+.elementor-337 .elementor-element.elementor-element-54bdaf8 {
+	bottom: 25px;
+}
+
+.elementor-337 .elementor-element.elementor-element-53398ac {
+  text-align: center;
+}
+
+.ligne_longueur {
+  width: 100% !important;
+}
+
+.image_vous_aimerez{
+  margin-right: 0px;
+}
+
+.image_vous_aimerez2{
+  margin-left: 0px;
+}
+
+#metaslider_986 {
+  display: none;
+}
+
+.vous_aimerez {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.image_principale {
+  width: auto;
+  height: auto;
+  margin-left: 0px !important;
+}
+
+.footer-menu-container {
+  width: 100%;
+}
+
+.container-centered {
+  padding: 10px 10px;
+}
+
+.bouton_contact {
+  text-align: center;
+  padding-right: 0px !important;
+}
+
+.interet {
+  margin-left: 117px;
+}
+
+/* Conteneur des filtres de gauche */
+.filter-group-categorie,
+.filter-group-format {
+    display: block;
+}
+
+#lightbox-prev,
+#lightbox-next{
+  top: 80% !important;
+  font-size: 20px !important;
+}
+
+#lightbox-image-info{
+  width: 400px;
+}
+/* Appliquer uniquement à la section avec la classe custom-mobile-reverse */
+.custom-mobile-reverse {
+    display: flex;
+    flex-direction: row; /* Par défaut, les colonnes sont affichées l'une à côté de l'autre */
+}
+
+@media (max-width: 768px) {
+    .custom-mobile-reverse {
+        flex-direction: column-reverse; /* Inverser les colonnes uniquement sur mobile */
+    }
+}
+
+
+.oceanwp-mobile-menu-icon a.mobile-menu.opened .oceanwp-close-text {
+  display: none !important;
+}
+
+/* Icône de menu burger par défaut */
+.oceanwp-mobile-menu-icon i.fa-bars::before, 
+.oceanwp-mobile-menu-icon i.fa-navicon::before {
+    content: "\f0c9"; /* Icône des trois barres */
+}
+
+/* Icône de croix quand le menu est ouvert */
+.menu-opened .oceanwp-mobile-menu-icon i.fa-bars::before, 
+.menu-opened .oceanwp-mobile-menu-icon i.fa-navicon::before {
+    content: "\f00d"; /* Icône de croix */
+}
+
+
+
+}
